@@ -1,0 +1,269 @@
+/* CURRENTLY IN: css/app.css */
+
+/*
+ *  Global Module
+ */
+
+html, body {
+    height: 100%;
+}
+
+html {
+    /*font-size: 10px;*/
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: #211335;
+    /*background-color: #25163B;*/
+    font-size: 10px;
+}
+
+a {
+    color: #25B175;
+}
+
+svg {
+    height: 100%;
+}
+
+.glbl-ml {
+    margin-left: 3%;
+}
+
+.glbl-mr {
+    margin-right: 3%;
+}
+
+.glbl-m {
+    margin: 2%;
+}
+
+.glbl-mb {
+    margin-bottom: 3%;
+}
+
+.glbl-nmb {
+    margin-bottom: 0 !important; 
+}
+
+/*
+ *  Fonts Module
+ */
+
+.top-bar li a {
+    font-family: 'Megrim', cursive !important;
+    font-size: 1.2rem !important;
+}
+
+.tabs li a {
+    font-family: 'Megrim', cursive !important;
+    font-size: 1.5rem !important;
+}
+
+.ice {
+    font-family: 'Iceberg', cursive !important;
+}
+
+.play h1 {
+    font-family: 'Iceberg', cursive !important;
+    font-size: 4.5rem !important;
+}
+
+.inika {
+    font-family: 'Inika', serif !important;
+}
+
+.megrim {
+    font-family: 'Megrim', cursive !important;
+
+}
+
+
+/*
+ *  Color Module
+ */
+
+.blue {
+    background-color: #006ADF;
+}
+
+.text-blue {
+    color: #006ADF;
+}
+
+.text-white {
+    color: #FFF !important;
+}
+
+.purple {
+    background-color: #211335 !important;
+}
+
+.text-purple {
+    color: #211335 !important;
+}
+
+.green {
+    background-color: #25B175;
+}
+
+.red {
+    background-color: #fe2e2e;
+}
+
+.violet {
+    background-color: #7244B1;
+}
+
+.grey {
+    background-color: #EFF9FD;
+}
+
+.transparent {
+    background-color: transparent;
+}
+
+/*
+ *  Header Module
+ */
+
+.header {
+    width: 100%;
+}
+
+.name {
+    pointer-events: none;
+}
+
+.expanded {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+}
+
+/*
+ *  Tabs Module
+ */
+
+.no-padding {
+    padding: 0 !important; 
+}
+
+.tab-title {
+    text-align: center;
+}
+
+/*
+ *  Columns Module
+ */
+
+.row {
+    max-width: 100%;
+}
+
+.columns {
+    padding-top: 2%;
+    height: 80%;
+}
+
+.panel {
+    border: none;
+}
+
+.clip {
+  clip-path: inset(0 0 1% 0);
+}
+
+/*
+ *  Footer Module
+ */
+
+.footer {
+    /*position: fixed;*/
+    clear: both;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+
+.icon-bar {
+    height: 50px;
+}
+.item {
+    padding: 0;
+    height: 100%;
+}
+
+.empty {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #333333 !important;
+}
+
+
+
+/*
+ *  Game Module
+ */
+
+.game-container {
+    max-height: 90%;
+    /*position: absolute;*/
+    text-align: center;
+    margin: 1%;
+}
+
+.board {
+    display: inline-block;
+}
+
+.board-piece {
+    margin-right: -2px;
+    margin: -2px;
+}
+
+#theForestSVG {
+    fill: #25B175;
+}
+
+#theKnightSVG {
+    fill: #006ADF;
+}
+
+#theGirlSVG {
+    fill:  #fe2e2e;
+}
+
+#theEnemySVG {
+    fill: #7244B1;
+}
+
+#theDevSVG {
+    fill: #211335;
+    background-color: #EFF9FD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
